@@ -66,7 +66,7 @@ class Tag extends React.Component {
 
   char(node) {
     return new TimelineMax().staggerFrom(
-      node.querySelectorAll(".char, p span"),
+      node.querySelectorAll(".char"),
       0.5,
       { ease: Back.easeOut, opacity: 0, y: "+=50" },
       0.05
