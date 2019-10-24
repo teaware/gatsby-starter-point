@@ -1,5 +1,5 @@
 ---
-title: "My First Blog"
+title: "The First Blog Post"
 tags: ["Gatsby", "note", "to-dos"]
 date: "2019-08-20"
 spoiler: "The very first blog post"
