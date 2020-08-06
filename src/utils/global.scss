@@ -146,6 +146,20 @@ main {
   }
   h3 {
     margin: 0;
+    a {
+      background-image: linear-gradient(
+        to bottom,
+        transparent 65%,
+        var(--hover) 10%
+      );
+      background-size: 0% 100%;
+      background-repeat: no-repeat;
+      transition: background-size 0.4s ease;
+      color: var(--textTitle);
+      &:hover {
+        background-size: 100% 100%;
+      }
+    }
   }
 }
 
