@@ -43,7 +43,7 @@
   "devDependencies": {
     "prettier": "^2.0.5"
   },
-  "homepage": "https://gatsby-starter-point.netlify.com/",
+  "homepage": "https://gatsby-starter-point.netlify.app/",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf public && rm -rf .cache && gatsby build",
