@@ -3,7 +3,7 @@ module.exports = {
     title: `gatsby-starter-point`,
     author: `George Brown`,
     description: `A gatsby starter for personal blog.`,
-    siteUrl: `https://gatsby-starter-point.netlify.com/`,
+    siteUrl: `https://gatsby-starter-point.netlify.app/`,
     social: {
       twitter: `anikijiang`,
     },
