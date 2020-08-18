@@ -68,12 +68,12 @@ main {
     font-size: 1.25rem;
     line-height: 1.1;
     background: linear-gradient(to right, var(--hover) 50%, transparent 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
+    background-size: 202% 100%;
+    background-position: 100% center;
     transition: all 0.3s ease-out;
     font-weight: 400;
     &:hover {
-      background-position: left bottom;
+      background-position: left center;
     }
     svg {
       width: 1.25rem;
