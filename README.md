@@ -1,6 +1,6 @@
 # gatsby-starter-point
 
-A humble Gatsby starter for personal blog. :shipit:
+A humble [Gatsby Starter](https://www.gatsbyjs.com/starters/teaware/gatsby-starter-point/) for personal blog. :shipit:
 
 With fancy page transitions ✨💫
 
