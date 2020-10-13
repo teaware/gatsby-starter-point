@@ -67,8 +67,8 @@ class Index extends React.Component {
   char(node) {
     return new TimelineMax().staggerFrom(
       node.querySelectorAll(".char"),
-      0.5,
-      { ease: Back.easeOut, opacity: 0, y: "+=50" },
+      0.3,
+      { ease: Back.ease, opacity: 0, y: "+=50" },
       0.05
     )
   }
@@ -82,7 +82,7 @@ class Index extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Home" />
         <Bio />
-        <div className="blog-list" ref={n => (this.mod = n)}>
+        <div className="blog-list" ref={(n) => (this.mod = n)}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -120,7 +120,7 @@ class Index extends React.Component {
         </div>
         <TransitionPortal>
           <div
-            ref={n => (this.cover = n)}
+            ref={(n) => (this.cover = n)}
             style={{
               position: "fixed",
               background: "#8c61ff",
