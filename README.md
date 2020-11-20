@@ -4,6 +4,10 @@ A humble [Gatsby Starter](https://www.gatsbyjs.com/starters/teaware/gatsby-start
 
 With fancy page transitions ✨💫
 
+& Perfect Performance 💯
+
+![Performance](./src/assets/performance.png)
+
 ## Basic Guide
 
 Install dependencies
@@ -19,3 +23,7 @@ gatsby develop
 ```
 
 Happy coding 💅🏻
+
+## Contact
+
+Contact me on [twitter](https://twitter.com/anikijiang).
