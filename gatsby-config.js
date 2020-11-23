@@ -119,7 +119,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#8c61ff`,
-        display: `minimal-ui`,
+        display: "standalone",
         icon: `src/assets/icon.png`,
       },
     },
